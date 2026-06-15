@@ -1,6 +1,7 @@
 import style from './styles.module.css'
 import HelpFindWork from '../helpFindWork';
-import SearchBar from '../searchBar'
+import SearchBar from '../searchBar';
+import CategoryCardList from '../categoryCardList';
 
 function Main() {
     return (<>
@@ -15,6 +16,7 @@ function Main() {
 
         </div>
         <HelpFindWork />
+        <CategoryCardList />
     </>
 
     )

@@ -1,0 +1,14 @@
+.cardList {
+    margin: 107px 100px 132px 100px;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    margin-bottom: 42px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 4.8%;
+    flex-wrap: wrap;
+}
