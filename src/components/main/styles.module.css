@@ -1,0 +1,14 @@
+body {
+    background-color: #CDE7FF;
+}
+.main h1 {
+    margin: 131px 0 415px 100px;
+    font-weight: 700;
+    font-size: 64px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.inputbar {
+    background-color: aliceblue;
+    width: 58.9%;
+}
