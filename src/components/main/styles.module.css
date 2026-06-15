@@ -12,11 +12,14 @@ body {
     font-weight: 700;
     font-size: 64px;
     color: rgba(0, 0, 0, 0.85);
-    width: 628px;
+    max-width: 550px;
 }
 
 .inputbar {
     background-color: aliceblue;
     width: 58.9%;
     justify-self: flex-start;
+    margin-top: 15px;
+    height: 105px;
+    box-shadow: 3px 4px 5px 5px rgba(24, 12, 49, 0.122);
 }

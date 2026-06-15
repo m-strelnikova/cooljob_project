@@ -3,43 +3,53 @@ import styles from './styles.module.css'
 const categoryCardList = [
     {
         id: Math.random(),
-        title: "",
-        icon: '../../assets/icons/'
+        title: "Финансы",
+        icon: '../../assets/icons/finance.svg'
     },
     {
         id: Math.random(),
-        title: "",
-        icon: '../../assets/icons/'
+        title: "Грузоперевозки",
+        icon: '../../assets/icons/logistic.svg'
     },
     {
         id: Math.random(),
-        title: "",
-        icon: '../../assets/icons/'
+        title: "Дизайн",
+        icon: '../../assets/icons/design.svg'
     },
     {
         id: Math.random(),
-        title: "",
-        icon: '../../assets/icons/'
+        title: "Ресторанный бизнес",
+        icon: '../../assets/icons/restauran.svg'
     },
     {
         id: Math.random(),
-        title: "",
-        icon: '../../assets/icons/'
+        title: "Медицина",
+        icon: '../../assets/icons/medicine.svg'
     },
     {
         id: Math.random(),
-        title: "",
-        icon: '../../assets/icons/'
+        title: "Мультимедиа",
+        icon: '../../assets/icons/media.svg'
     },
     {
         id: Math.random(),
-        title: "",
-        icon: '../../assets/icons/'
+        title: "Служба поддержки",
+        icon: '../../assets/icons/support.svg'
     },
     {
         id: Math.random(),
-        title: "",
-        icon: '../../assets/icons/'
+        title: "Менеджмент",
+        icon: '../../assets/icons/management.svg'
+    },
+    {
+        id: Math.random(),
+        title: "Продажи",
+        icon: '../../assets/icons/sales.svg'
+    },
+    {
+        id: Math.random(),
+        title: "Больше категорий",
+        icon: '../../assets/icons/arrow_more.svg'
     },
 ]
 function CategoryCardList() {
@@ -48,12 +58,9 @@ function CategoryCardList() {
             <h2>Работа по категориям</h2>
             <ul> {categoryCardList.map((card) => {
                 return (
-                    <li key={card.id}>
-                        <img src="" alt="icon" />
-                        <h4>{card.title}</h4>
-                    </li>
+                   <categoryCard {...card}/>
                 )
-            } 
+            }
             )}
             </ul>
         </div>

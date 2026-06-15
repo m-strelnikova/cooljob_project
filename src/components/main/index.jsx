@@ -1,5 +1,6 @@
 import style from './styles.module.css'
 import HelpFindWork from '../helpFindWork';
+import SearchBar from '../searchBar'
 
 function Main() {
     return (<>
@@ -9,7 +10,7 @@ function Main() {
                 и работа в кармане
             </h1>
             <div className={style.inputbar}>
-                <input type="text" />
+                <SearchBar />
             </div>
 
         </div>
