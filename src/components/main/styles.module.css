@@ -1,14 +1,22 @@
 body {
     background-color: #CDE7FF;
 }
-.main h1 {
-    margin: 131px 0 415px 100px;
+.mainheader {
+    margin: 131px 0 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mainheader h1 {
     font-weight: 700;
     font-size: 64px;
     color: rgba(0, 0, 0, 0.85);
+    width: 628px;
 }
 
 .inputbar {
     background-color: aliceblue;
     width: 58.9%;
+    justify-self: flex-start;
 }
