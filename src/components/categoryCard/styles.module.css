@@ -9,6 +9,11 @@
     box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #fff;
     margin-bottom: 27px;
+    transition: all 0.3s ease-in-out;
+}
+
+.category_card:hover {
+    background-color: #e2f1ff;
 }
 
 .showmore {
@@ -23,6 +28,10 @@
     margin-bottom: 27px;
     background-color: #CDE7FF;
     border: 2px solid rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+.showmore:hover {
+    background-color: #f0f8ffa0;
 }
 
 img {

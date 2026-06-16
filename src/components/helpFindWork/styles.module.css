@@ -17,3 +17,6 @@
     display: flex;
     gap: 56px;
 }
+.sponsors img {
+    min-width: 100px;
+}
