@@ -14,6 +14,7 @@
 
 .category_card:hover {
     background-color: #e2f1ff;
+    cursor: pointer;
 }
 
 .showmore {
@@ -35,6 +36,7 @@
     background-color: #f0f8ffa0;
     border: 2px solid#f0f8ffa0;
     box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 img {

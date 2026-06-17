@@ -1,0 +1,66 @@
+.searchbar_box {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.search_job {
+    margin-left: 2.7%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search_job:hover span {
+    background-color: #e2f1ff;
+    padding: 10px 10px 10px 8px;
+    margin-left: 3px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search_loc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search_loc:hover span {
+    background-color: #e2f1ff;
+    padding: 10px 10px 10px 8px;
+    margin-left: 3px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search_job span,
+.search_loc span {
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+    padding-left: 10px;
+    min-width: fit-content;
+    transition: all 0.3s ease-in-out;
+}
+
+.divide_line {
+    margin-right: 36%;
+}
+
+.searchbar_box button {
+    background-color: #274059;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 213px;
+    font-weight: 700;
+    font-size: 22px;
+    transition: all 0.3s ease-in-out;
+}
+
+.searchbar_box button:hover {
+    cursor: pointer;
+    font-size: 25px;
+}

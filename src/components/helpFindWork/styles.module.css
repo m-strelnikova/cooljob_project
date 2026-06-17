@@ -19,6 +19,7 @@
 }
 .sponsors img {
     min-width: 100px;
+    transition: all 0.3s ease;
 }
 .sponsors img:hover {
     width: 115px;

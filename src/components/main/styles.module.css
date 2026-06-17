@@ -1,5 +1,6 @@
 body {
     background-color: #CDE7FF;
+    overflow-x: hidden;
 }
 .mainheader {
     margin: 131px 0 0 100px;
@@ -16,10 +17,19 @@ body {
 }
 
 .inputbar {
-    background-color: aliceblue;
+    background-color: white;
     width: 58.9%;
     justify-self: flex-start;
     margin-top: 15px;
     height: 105px;
     box-shadow: 6px 5px 9px 0 rgba(0, 0, 0, 0.35);
+}
+
+.main_deco_figure{
+    width: 1678px;
+    height: 953px;
+    position: absolute;
+    top: 23px;
+    left: 770px;
+    z-index: -1;
 }

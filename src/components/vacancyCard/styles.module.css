@@ -60,7 +60,8 @@ span {
 
 .vacancy_card:hover {
     background-color: #e2f1ff;
-
+    cursor: pointer;
+    padding-right: 115px;
 }
 
 .vacancy_card:hover span {
@@ -68,5 +69,7 @@ span {
 }
 
 .vacancy_card:hover h4 {
-    font-size: 26px;
+    background-color: white;
+    padding: 10px 5px;
+    border-radius: 12px;
 }
