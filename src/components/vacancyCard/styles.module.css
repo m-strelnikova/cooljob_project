@@ -61,15 +61,8 @@ span {
 .vacancy_card:hover {
     background-color: #e2f1ff;
     cursor: pointer;
-    padding-right: 115px;
 }
 
 .vacancy_card:hover span {
     color: #485379;
-}
-
-.vacancy_card:hover h4 {
-    background-color: white;
-    padding: 10px 5px;
-    border-radius: 12px;
 }

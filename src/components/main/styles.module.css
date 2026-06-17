@@ -28,7 +28,7 @@ body {
 .main_deco_figure{
     width: 1678px;
     height: 953px;
-    position: absolute;
+    position: fixed;
     top: 23px;
     left: 770px;
     z-index: -1;
