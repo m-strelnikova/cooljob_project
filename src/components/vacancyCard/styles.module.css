@@ -1,0 +1,72 @@
+.vacancy_card {
+    width: 449px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+    padding: 40px 132px 40px 46px;
+    transition: all 0.5s ease-in-out;
+}
+
+.category img {
+    width: 14px;
+    margin-right: 17px;
+}
+
+.category span {
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(141, 141, 141, 0.8);
+}
+
+.vacancy_card h4 {
+    margin-bottom: 36px;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+span {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(141, 141, 141, 0.8);
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.location img {
+    width: 14px;
+    height: 19px;
+}
+
+.publisher {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.publisher img {
+    min-height: 11px;
+    min-width: 60px;
+}
+
+.vacancy_card:hover {
+    background-color: #e2f1ff;
+
+}
+
+.vacancy_card:hover span {
+    color: #485379;
+}
+
+.vacancy_card:hover h4 {
+    font-size: 26px;
+}

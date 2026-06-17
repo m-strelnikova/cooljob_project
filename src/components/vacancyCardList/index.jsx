@@ -1,4 +1,5 @@
-import style from './styles.module.css'
+import style from './styles.module.css';
+import VacancyCard from '../vacancyCard';
 const vacancyList = [
     {
         id: 11,
@@ -52,7 +53,7 @@ const vacancyList = [
     },
     {
         id: 16,
-        category_icon: new URL('../../assets/icons/.svg', import.meta.url).href,
+        category_icon: new URL('../../assets/icons/log_dot.svg', import.meta.url).href,
         category: 'Грузоперевозки',
         title: 'Водитель на дальние дистанции',
         location: 'Кобе. Япония',
@@ -63,16 +64,18 @@ const vacancyList = [
 ]
 
 function VacancyCardList() {
-    return ( <div className={style}>
-            <h2>Работа по категориям</h2>
-            <ul> {categoryCardList.map((card) => {
+    return ( <div className={style.vacancy_block}>
+            <h2>Новые вакансии</h2>
+            <p>Найди работу своей мечты прямо сейчас</p>
+            <ul className={style.cardList}> {vacancyList.map((vacancy) => {
                 return (
-                    <li key={card.id}>
-                        <CategoryCard {...card} />
+                    <li key={vacancy.id}>
+                        <VacancyCard {...vacancy} />
                     </li>
                 )
             })}
             </ul>
+            <button>Все вакансии</button>
         </div>
     )
 }

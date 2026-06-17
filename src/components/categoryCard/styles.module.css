@@ -30,8 +30,11 @@
     border: 2px solid rgba(0, 0, 0, 0.25);
     transition: all 0.3s ease-in-out;
 }
+
 .showmore:hover {
     background-color: #f0f8ffa0;
+    border: 2px solid#f0f8ffa0;
+    box-shadow: 2px 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 img {
@@ -43,5 +46,10 @@ h4 {
     margin-top: 20px;
     font-weight: 500;
     font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease-in-out;
+}
+
+.category_card:hover h4 {
     color: rgba(0, 0, 0, 0.8);
 }

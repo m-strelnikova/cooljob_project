@@ -20,3 +20,7 @@
 .sponsors img {
     min-width: 100px;
 }
+.sponsors img:hover {
+    width: 115px;
+    cursor: pointer;
+}

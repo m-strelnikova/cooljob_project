@@ -2,6 +2,7 @@ import style from './styles.module.css'
 import HelpFindWork from '../helpFindWork';
 import SearchBar from '../searchBar';
 import CategoryCardList from '../categoryCardList';
+import VacancyCardList from '../vacancyCardList';
 
 function Main() {
     return (<>
@@ -17,8 +18,8 @@ function Main() {
         </div>
         <HelpFindWork />
         <CategoryCardList />
+        <VacancyCardList />
     </>
-
     )
 }
 
