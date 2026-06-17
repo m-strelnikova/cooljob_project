@@ -1,0 +1,65 @@
+[33mcommit 916e2f849343533fc20eb9ea988b8f52bb233b47[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: MStrelnikova <hashitomada@gmail.com>
+Date:   Thu Jun 18 00:49:15 2026 +0200
+
+    started footer, added Array with social networks
+
+[33mcommit 600217ff5b02afe25b330721f6f8559759bcd8cb[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: MStrelnikova <hashitomada@gmail.com>
+Date:   Wed Jun 17 23:39:09 2026 +0200
+
+    added Searchbar and hover-effects
+
+[33mcommit be81c71f65f55e1ade7dd1096d64f912368b8948[m
+Author: MStrelnikova <hashitomada@gmail.com>
+Date:   Wed Jun 17 21:39:09 2026 +0200
+
+    VacancyCard + styles ready
+
+[33mcommit 4285c07e9ad342050520ab4ca15b8e91806f74f8[m
+Author: MStrelnikova <hashitomada@gmail.com>
+Date:   Tue Jun 16 18:36:25 2026 +0200
+
+    vacancy list added
+
+[33mcommit 640aa66ee99d4d716fe79719e708836c7be471fd[m
+Author: MStrelnikova <hashitomada@gmail.com>
+Date:   Tue Jun 16 00:03:46 2026 +0200
+
+    category cards ready
+
+[33mcommit b1a5a9ff0c4dc0861f6e090691d295c675f4927e[m
+Author: MStrelnikova <hashitomada@gmail.com>
+Date:   Mon Jun 15 23:03:42 2026 +0200
+
+    Sponsorbar(HelpFindWork) ready
+
+[33mcommit 7ebd6231e4a1e2e67737c64be186540c2a08cb9c[m
+Author: MStrelnikova <hashitomada@gmail.com>
+Date:   Mon Jun 15 21:44:21 2026 +0200
+
+    sponsorbar added
+
+[33mcommit d20a0e979bfd3cdb81118ff8abf14a6a0aa90140[m
+Author: MStrelnikova <hashitomada@gmail.com>
+Date:   Mon Jun 15 21:04:34 2026 +0200
+
+    adding  main to home
+
+[33mcommit 716ba001a883dea65bbfdc1d4d30889e97aea389[m
+Author: MStrelnikova <hashitomada@gmail.com>
+Date:   Mon Jun 15 20:53:22 2026 +0200
+
+    start coding main
+
+[33mcommit 58fba5848d94683e832ff402004443c5e02d72c5[m
+Author: MStrelnikova <hashitomada@gmail.com>
+Date:   Mon Jun 15 20:25:59 2026 +0200
+
+    header added + styles
+
+[33mcommit 6fa828adee0ffb57b94957c103503bb938beae37[m
+Author: MStrelnikova <hashitomada@gmail.com>
+Date:   Mon Jun 15 19:28:25 2026 +0200
+
+    setup
